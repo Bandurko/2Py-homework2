@@ -19,7 +19,6 @@ for i in range(N):
         o += 1
     elif side == 1:
         r += 1
-
 if o <= r:
     print('Нужно перевернуть', o, 'монеты(у)')
 elif r < o:
